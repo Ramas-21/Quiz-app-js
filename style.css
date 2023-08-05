@@ -40,3 +40,13 @@ ul li{
 ul li label{
     cursor: pointer;
 }
+button{
+    background-color: lightseagreen;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 1.3rem;
+}
