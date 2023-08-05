@@ -50,3 +50,6 @@ button{
     font-size: 1.1rem;
     padding: 1.3rem;
 }
+button:hover{
+    background-color: #04adc4;
+}
