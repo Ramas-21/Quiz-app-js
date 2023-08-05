@@ -24,3 +24,8 @@ body{
 .quiz-header{
     padding: 4rem;
 }
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
