@@ -31,4 +31,5 @@ const quizData = [
     d: "none of the above",
     correct: "b",
   },
-]
+];
+
