@@ -23,5 +23,12 @@ const quizData = [
     d: "HyperLoop machine Language",
     correct: "a",
   },
-  
+  {
+    question: "What year was javascript launched",
+    a: "1936",
+    b: "1995",
+    c: "1934",
+    d: "none of the above",
+    correct: "b",
+  },
 ]
