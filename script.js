@@ -15,4 +15,13 @@ const quizData = [
     d: "Cars style sheets",
     correct: "b",
   },
+  {
+    question: "What does HTML stand for",
+    a: "Hypertext markup Language",
+    b: "Hypertext markdown Language",
+    c: "Hypertext markSide Language",
+    d: "HyperLoop machine Language",
+    correct: "a",
+  },
+  
 ]
