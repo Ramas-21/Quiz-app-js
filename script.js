@@ -40,7 +40,7 @@ const a_text = document.getElementById('a_text');
 const b_text = document.getElementById('b_text');
 const c_text = document.getElementById('c_text');
 const d_text = document.getElementById('d_text');
-const submitEl = document.getElementById('submit');
+const submitBtn = document.getElementById('submit');
 
 
 let currentQuiz = 0;
@@ -73,3 +73,19 @@ function getSelected(){
   });
   return answer;
 }
+
+submitBtn.addEventListener('click', () =>{
+  const answer = getSelected();
+  if(answer){
+    if(answer === quizData[currentQuiz].correct){
+      score++;
+    }
+    currentQuiz++;
+    if(currentQuiz < quizData.length){
+      loadQuiz();
+    }
+    else{
+      quiz.innerHTML = '<h2>You answered $(score)/$(quizData.length) questions correctly.</h2> <button onclick="location.reload()">Reload</button>'
+    }
+  }
+})
