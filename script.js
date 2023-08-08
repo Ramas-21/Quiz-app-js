@@ -43,4 +43,7 @@ const d_text = document.getElementById('d_text');
 const submitEl = document.getElementById('submit');
 
 
+let currentQuiz = 0;
+let score = 0;
+
 
