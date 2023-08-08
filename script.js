@@ -59,3 +59,7 @@ function loadQuiz(){
   c_text.innerText = currentQuizData.c;
   d_text.innerText = currentQuizData.d;
 }
+
+function deselectAnswers(){
+  answerEl.forEach(answerEl => answerEl.checked = false);
+}
