@@ -63,3 +63,13 @@ function loadQuiz(){
 function deselectAnswers(){
   answerEl.forEach(answerEl => answerEl.checked = false);
 }
+
+function getSelected(){
+  let answerEl;
+  answerEl.forEach(answerEl =>{
+    if(answerEl.checked){
+      answer = answerEl.id;
+    }
+  });
+  return answer;
+}
